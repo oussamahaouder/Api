@@ -1,0 +1,10 @@
+POST http://localhost:5000/api/auth/register
+
+Content-Type: "application/json"
+    {
+        
+        "username":"oussama",
+        "email":"oussame@oussame.com",  
+        "password":"test123",
+        "isAdmin":true
+    }
